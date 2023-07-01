@@ -53,6 +53,7 @@ public class AreaOfShapes {
                 double diagonal2 = sc.nextInt();
                 double area4 = 0.5 * (diagonal1 * diagonal2);
                 System.out.println("Area of Rhombus : " + area4);
+                break;
 
             default:
                 System.out.println("Invalid input");
