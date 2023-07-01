@@ -13,7 +13,7 @@ public class AreaOfShapes {
         switch (ch){
             case 1:
                 System.out.println("Enter radius : ");
-                int r = sc.nextInt();
+                double r = sc.nextInt();
                 double pi = 3.14;
                 double area = pi * (r * r);
                 System.out.println("Area of Circle : " + area);
